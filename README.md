@@ -13,7 +13,7 @@ The image illustrates the incident management workflow using the Amazon Bedrock 
 * Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
 
 ### Incident Severity Level Classification
-<img src="images/jpg-incident-severity-classification.jpg">
+<img src="images/incident-severity-classification.jpg">
 
 The image depicts a process for identifying severity level to respond to IT incidents. Here are the steps in the flowchart, broken down into bullet points:
 
@@ -23,7 +23,7 @@ The image depicts a process for identifying severity level to respond to IT inci
 * Depending on the severity level of the incident, different actions are taken.
  
 ### Data Extraction from Unstructure to Structure.
-<img src="images/jpg-data-extraction.jpg">
+<img src="images/data-extraction.jpg">
 
 It involved a process that uses a Large Language Model (LLM) Generative AI model to extract data from resumes in PDF format. Here's a breakdown of the process in bullet points:
 
