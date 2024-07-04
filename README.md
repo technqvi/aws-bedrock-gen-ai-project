@@ -31,4 +31,4 @@ It involved a process that uses a Large Language Model (LLM) Generative AI model
 * The process starts with unstructured data in PDF format being ingested. This could include resumes in various formats and styles.
 * The LLM Generative AI model then extracts data from the PDF files.
 * The extracted data is then stored in a structured format, like a JSON file. This allows for easier organization and analysis of the information.
-* It's important to note that, It can be used to various kind of document such as resume, invoice billing, preventive maintenance document with widely varying layouts/pattern
+* It's important to note that, It can be used to various kind of document such as resume, invoice billing, preventive maintenance document with varying layouts/pattern
