@@ -1,7 +1,7 @@
 # Amazone Bedrock GenAI LLM Project
 
-<img src="images/incident-kb-master.jpg">
-<img src="images/incident-agent-kb-master.jpg"/>
+<img src="images/jpg-incident-kb.jpg">
+<img src="images/jpg-incident-agent.jpg"/>
 
 
  
