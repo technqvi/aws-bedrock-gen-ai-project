@@ -7,10 +7,10 @@
 
 ## Incident Agent
 <img src="images/incident-agent.png"/>
-The image illustrates the incident management workflow using the Amazon Bedrock knowledge base. The process involves the Incident-Agent receiving real-time incident data, updating the status, and providing details to the Agent.
+The image illustrates the process of the Incident-Agent to orchestrate various tasks for IT Incident Manangement System including
+* Retrieving Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
+* Fetching real-time incident data in order to updating the status, and adding incident details to the Agent toward the AWS Lambda function to database right away. 
 
-* The Agent performs actions, updates incident details, and adds them to the AWS Lambda bot actions. 
-* Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
 
 ### Incident Severity Level Classification
 <img src="images/incident-severity-classification.jpg">
