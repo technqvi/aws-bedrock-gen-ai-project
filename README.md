@@ -17,3 +17,10 @@ The image depicts a process for identifying severity level to respond to IT inci
  
 ### Data Extraction from Unstructure to Structure.
 <img src="images/jpg-data-extraction.jpg">
+
+It involved a process that uses a Large Language Model (LLM) Generative AI model to extract data from resumes in PDF format. Here's a breakdown of the process in bullet points:
+
+* The process starts with unstructured data in PDF format being ingested. This could include resumes in various formats and styles.
+* The LLM Generative AI model then extracts data from the PDF files.
+* The extracted data is then stored in a structured format, like a JSON file. This allows for easier organization and analysis of the information.
+* It's important to note that  while this process can be effective,  resumes with  widely varying layouts or those that are scanned documents might  cause issues with accuracy.
