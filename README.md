@@ -8,3 +8,5 @@
 ### Incident Severity Level Classification
 <img src="images/jpg-incident-severity-classification.jpg">
  
+### Data Extraction from Unstructure to Structure.
+<img src="images/jpg-data-extraction.jpg">
