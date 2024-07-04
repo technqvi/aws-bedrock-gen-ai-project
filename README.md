@@ -1,12 +1,14 @@
 # Amazone Bedrock GenAI LLM Project
 ## Incident Knownledge Base
 <img src="images/incident-kb.png">
+
 * Amazon Bedrock streamlines IT incident management by ingesting incident data, transforming user queries into embeddings, searching for relevant context in a VectorDB, and generating accurate responses using a reference model. 
 * This workflow enables the IT-Incident KB Chatbot to provide efficient and contextually relevant answers to user questions which are historical incident cases  in order to streamline  the overall incident management process to fix any incident issues for customer efficiently.
 
 ## Incident Agent
 <img src="images/incident-agent.png"/>
 The image illustrates the incident management workflow using the Amazon Bedrock knowledge base. The process involves the Incident-Agent receiving real-time incident data, updating the status, and providing details to the Agent.
+
 * The Agent performs actions, updates incident details, and adds them to the AWS Lambda bot actions. 
 * Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
 
