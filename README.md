@@ -8,6 +8,7 @@
 ## Incident Agent
 <img src="images/incident-agent.png"/>
 The image illustrates the process of the Incident-Agent to orchestrate various tasks for IT Incident Manangement System including
+
 * Retrieving Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
 * Fetching real-time incident data in order to updating the status, and adding incident details to the Agent toward the AWS Lambda function to database right away. 
 
