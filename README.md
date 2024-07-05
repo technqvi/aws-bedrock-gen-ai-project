@@ -33,6 +33,6 @@ The image depicts a process for identifying severity level to respond to IT inci
 * The possible severity levels are Critical ,Major ,Minor, Cosmetic
 * Depending on the severity level of the incident, different actions are taken.
 
-## Natural Language to SQL Query Converter for Incident Database Reporting
+## Natural Language to SQL Query Converter for Incident Database Query & Reporting (Comming Soon)
 
  
