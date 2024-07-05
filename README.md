@@ -1,7 +1,7 @@
 # Amazone Bedrock GenAI LLM Project
-## Incident Knownledge Base
 Implement Generative AI Project   such as Knowledge Base, Agent Base, Text Classification, Text Generation, Data/Document Extraction  on  AWS Platform : Amazon Bedrock, Langchain, Claude.ai ,llamaindex.ai , Vector Database (Pinecone,Open Search  Serverless, PGVector)
 
+## Incident Knownledge Base
 <img src="images/incident-kb.png">
 
 * Amazon Bedrock streamlines IT incident management by ingesting incident data, transforming user queries into embeddings, searching for relevant context in a VectorDB, and generating accurate responses using a reference model. 
