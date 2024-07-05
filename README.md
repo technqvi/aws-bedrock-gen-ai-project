@@ -13,17 +13,7 @@ The image illustrates the process of the Incident-Agent to orchestrate various t
 * Fetching real-time incident data in order to updating the status, and adding incident details to the Agent toward the AWS Lambda function to database right away. 
 
 
-### Incident Severity Level Classification
-<img src="images/incident-severity-classification.jpg">
-
-The image depicts a process for identifying severity level to respond to IT incidents. Here are the steps in the flowchart, broken down into bullet points:
-
-* The process starts with an IT incident being opened. There are two options at this point:
-* If Model classified as critical or major incident, then an alert 
-* The possible severity levels are Critical ,Major ,Minor, Cosmetic
-* Depending on the severity level of the incident, different actions are taken.
- 
-### Data Extraction from Unstructure to Structure.
+## Data Extraction from Unstructure to Structure.
 <img src="images/data-extraction.jpg">
 
 It involved a process that uses a Large Language Model (LLM) Generative AI model to extract data from resumes in PDF format. Here's a breakdown of the process in bullet points:
@@ -32,3 +22,17 @@ It involved a process that uses a Large Language Model (LLM) Generative AI model
 * The LLM Generative AI model then extracts data from the PDF files.
 * The extracted data is then stored in a structured format, like a JSON file. This allows for easier organization and analysis of the information.
 * It's important to note that, It can be used to various kind of document such as resume, invoice billing, preventive maintenance document with varying layouts/pattern
+
+## Incident Severity Level Classification (Comming Soon)
+<img src="images/incident-severity-classification.jpg">
+
+The image depicts a process for identifying severity level to respond to IT incidents. Here are the steps in the flowchart, broken down into bullet points:
+
+* The process starts with an IT incident being opened. There are two options at this point:
+* If Model classified as critical or major incident, then an alert 
+* The possible severity levels are Critical ,Major ,Minor, Cosmetic
+* Depending on the severity level of the incident, different actions are taken.
+
+## Natural Language to SQL Query Converter for Incident Database Reporting
+
+ 
