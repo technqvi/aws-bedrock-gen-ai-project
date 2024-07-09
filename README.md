@@ -37,21 +37,12 @@ The image depicts a process for identifying severity level to respond to IT inci
 
 ## Incident Query & Reporting  By Natural Language to SQL Query Converter (Comming Soon)
 <image src="images/incidnet_text_to_sql.png">
-The image illustrates a process flow for a user to query data from a database using natural language. Here's a step-by-step description:
-
-1. The user inputs a query in natural language format.
-
-2. The natural language query is sent to an Amazon Bedrock service, which is represented by an icon showing a brain with a question mark.
-
-3. The Amazon Bedrock service processes the natural language query and passes it to an AWS Lambda function, represented by the Lambda icon.
-
-4. The AWS Lambda function converts the natural language query into a SQL query.
-
-5. The generated SQL query is then used to retrieve data from an AWS Glue Data Catalog, which is connected to an Amazon Athena service and an Amazon RDS (Relational Database Service) database.
-
-6. The Athena service and RDS database execute the SQL query and fetch the requested data.
-
-7. The query result is returned, and an example of the result data is shown in a CSV (Comma-Separated Values) format at the bottom of the image.
-
 This process demonstrates how a user can interact with a database using natural language queries, which are transformed into SQL queries behind the scenes to retrieve the desired data from the connected data sources.
+
+* User inputs natural language query
+* Amazon Bedrock and AWS Lambda convert query to SQL
+* SQL query executed on AWS Glue Data Catalog, Athena, and RDS
+* Query result returned in CSV format
+
+
  
