@@ -1,4 +1,4 @@
-# Amazone Bedrock GenAI LLM Project
+# Amazon Bedrock GenAI LLM Project
 Implement Generative AI Project   such as Knowledge Base, Agent Base, Text Classification, Text Generation, Data/Document Extraction  on  AWS Platform : Amazon Bedrock, Langchain, Claude.ai ,llamaindex.ai , Vector Database (Pinecone,Open Search  Serverless, PGVector)
 
 ## Incident Knownledge Base
@@ -13,6 +13,25 @@ The image illustrates the process of the Incident-Agent to orchestrate various t
 
 * Retrieving Historical incident data from the knowledge base is retrieved to assist in resolving the incident.
 * Fetching real-time incident data in order to updating the status, and adding incident details to the Agent toward the AWS Lambda function to database right away. 
+
+## Incident Query & Reporting For User  By Natural Language to SQL Query Converter 
+<image src="images/incidnet_text_to_sql.png">
+This process demonstrates how a user can interact with a database using natural language queries, which are transformed into SQL queries behind the scenes to retrieve the desired data from the connected data sources.
+
+* User inputs natural language query
+* Amazon Bedrock and AWS Lambda convert query to SQL
+* SQL query executed on AWS Glue Data Catalog, Athena, and RDS
+* Query result returned in CSV format
+
+## Incident KB and TextToSQL Report on Single Platform (Comming Soon)
+Ref image : [amazon-bedrock-samples-knowledge-bases/use-case-examples](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/knowledge-bases/use-case-examples/rag-using-structured-unstructured-data/image/Text2SQL-RAG.png)
+<image src="docs-presentation\KB_Text2SQL-RAG.png">
+
+* The RAG Knowledgebase Amazon Bedrock is a tool that combines structured and unstructured data to answer questions using Retrieval Augmented Generation (RAG).
+* It integrates a knowledge base and a database to retrieve relevant information and generate comprehensive natural language responses.
+* The MultiRetrievalQAChain determines the appropriate data source for a given question, fetches relevant information, maintains conversation context, and synthesizes the retrieved data into a coherent natural language answer.
+* This is the mixture of structured data from a database (retrieved using Text-to-SQL as a retriever) and unstructured data as text-based knowledge base from S3, SharePoint to power a RAG application.
+* Prerequisites include creating a knowledge base for Amazon Bedrock using unstructured data and having data available for querying via SQL in Amazon Athena.
 
 
 ## Document Extraction to Structure Data For Analystics.
@@ -35,14 +54,6 @@ The image depicts a process for identifying severity level to respond to IT inci
 * The possible severity levels are Critical ,Major ,Minor, Cosmetic
 * Depending on the severity level of the incident, different actions are taken.
 
-## Incident Query & Reporting  By Natural Language to SQL Query Converter (Comming Soon)
-<image src="images/incidnet_text_to_sql.png">
-This process demonstrates how a user can interact with a database using natural language queries, which are transformed into SQL queries behind the scenes to retrieve the desired data from the connected data sources.
-
-* User inputs natural language query
-* Amazon Bedrock and AWS Lambda convert query to SQL
-* SQL query executed on AWS Glue Data Catalog, Athena, and RDS
-* Query result returned in CSV format
 
 
  
