@@ -25,7 +25,7 @@ This process demonstrates how a user can interact with a database using natural 
 
 ## Incident KB and TextToSQL Report on Single Platform (Comming Soon)
 Ref image : [amazon-bedrock-samples-knowledge-bases/use-case-examples](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/knowledge-bases/use-case-examples/rag-using-structured-unstructured-data/image/Text2SQL-RAG.png)
-<image src="docs-presentation/KB_Text2SQL-RAG.png">
+<image src="images/KB_Text2SQL-RAG.png">
 
 * The RAG Knowledgebase Amazon Bedrock is a tool that combines structured and unstructured data to answer questions using Retrieval Augmented Generation (RAG).
 * It integrates a knowledge base and a database to retrieve relevant information and generate comprehensive natural language responses.
