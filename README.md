@@ -1,11 +1,21 @@
 # Amazon Bedrock GenAI LLM Project
 Implement Generative AI Project   such as Knowledge Base, Agent Base, Text Classification, Text Generation, Data/Document Extraction  on  AWS Platform : Amazon Bedrock, Langchain, Claude.ai ,llamaindex.ai , Vector Database (Pinecone,Open Search  Serverless, PGVector)
 
-## Incident Knownledge Base
+## Incident Knownledge Base and Anlytics
 <img src="images/incident-kb.png">
+
 
 * Amazon Bedrock streamlines IT incident management by ingesting incident data, transforming user queries into embeddings, searching for relevant context in a VectorDB,augmenting  input query with additional context from the most relevant search result  ,and generating accurate responses using a reference model. 
 * This workflow enables the IT-Incident KB Chatbot to provide efficient and contextually relevant answers to user questions which are historical incident cases  in order to streamline  the overall incident management process to fix any incident issues for customer efficiently.
+<img src="images/incident-ai-data-analytics-explaination.png">
+
+The provided text describes a data processing pipeline for an IT-Incident Knowledge Base (KB) chatbot . The key steps in the pipeline are:
+
+* The chatbot data originates from the IT-Incident KB.
+* The data is transferred to Amazon S3 for storage.
+* AWS Glue is used to process and transform the data.
+* Amazon Athena is employed to query and analyze the data stored
+* Power BI is used for analytics and reporting
 
 ## Incident Agent
 <img src="images/incident-agent.png"/>
