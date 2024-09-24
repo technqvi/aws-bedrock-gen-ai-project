@@ -34,7 +34,7 @@ This process demonstrates how a user can interact with a database using natural 
 * SQL query executed on AWS Glue Data Catalog, Athena, and RDS
 * Query result returned in CSV format
 
-## Incident KB and TextToSQL Report on Single Platform (Comming Soon)
+## Incident Private KB ,General question and TextToSQL Report on Single Platform (Comming Soon)
 Ref image : [amazon-bedrock-samples-knowledge-bases/use-case-examples](https://github.com/aws-samples/amazon-bedrock-samples/blob/main/knowledge-bases/use-case-examples/rag-using-structured-unstructured-data/image/Text2SQL-RAG.png)
 <image src="images/KB_Text2SQL-RAG.png">
 
@@ -44,7 +44,7 @@ Ref image : [amazon-bedrock-samples-knowledge-bases/use-case-examples](https://g
 * This is the mixture of structured data from a database (retrieved using Text-to-SQL as a retriever) and unstructured data as text-based knowledge base from S3, SharePoint to power a RAG application.
 * Prerequisites include creating a knowledge base for Amazon Bedrock using unstructured data and having data available for querying via SQL in Amazon Athena.
 
-
+<image src="images/incident-multilchain.png">
 ## Document Extraction to Structure Data For Analystics.
 <img src="images/data-extraction.jpg">
 
