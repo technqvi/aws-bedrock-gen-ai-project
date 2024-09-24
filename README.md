@@ -8,7 +8,7 @@ Implement Generative AI Project   such as Knowledge Base, Agent Base, Text Class
 * Amazon Bedrock streamlines IT incident management by ingesting incident data, transforming user queries into embeddings, searching for relevant context in a VectorDB,augmenting  input query with additional context from the most relevant search result  ,and generating accurate responses using a reference model. 
 * This workflow enables the IT-Incident KB Chatbot to provide efficient and contextually relevant answers to user questions which are historical incident cases  in order to streamline  the overall incident management process to fix any incident issues for customer efficiently.
 <img src="images/incident-ai-data-analytics-explaination.png">
-<img src="images/dashboard.jpg.png">
+<img src="images/dashboard.png">
 
 The provided text describes a data processing pipeline for an IT-Incident Knowledge Base (KB) chatbot . The key steps in the pipeline are:
 
