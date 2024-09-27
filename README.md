@@ -1,7 +1,7 @@
 # Amazon Bedrock GenAI LLM Project
 Implement Generative AI Project   such as Knowledge Base, Agent Base, Text Classification, Text Generation, Data/Document Extraction  on  AWS Platform : Amazon Bedrock, Langchain, Claude.ai ,llamaindex.ai , Vector Database (Pinecone,Open Search  Serverless, PGVector)
 
-## Incident Knownledge Base and Anlytics
+## Incident Knownledge Base and Analytics
 <img src="images/incident-kb.png">
 
 
